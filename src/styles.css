@@ -1,3 +1,18 @@
 body{
     background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main-container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+#header{
+    border: 1px solid red;
+}
+#content{
+    border: 1px solid red;
+}
+#footer{
+    border: 1px solid red;
 }
