@@ -6,13 +6,21 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 4fr 1fr;
+    margin: 1rem;
 }
 #header{
-    border: 1px solid red;
+    border: 2px solid #282828;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2em;
 }
 #content{
-    border: 1px solid red;
+    border: 2px solid #282828;
+    border-radius: 3em 6em 3em;
 }
 #footer{
-    border: 1px solid red;
+    border: 2px solid #282828;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2em;
 }
