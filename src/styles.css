@@ -1,6 +1,6 @@
 body{
-    background-color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #585858;
 }
 #main-container{
     height: 100vh;
@@ -9,18 +9,74 @@ body{
     margin: 1rem;
 }
 #header{
-    border: 2px solid #282828;
+    border: 0.25rem solid #700000;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 2em;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #FFFFFF;
+}
+#logo{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+}
+#logo-pic{
+    display: flex;
+    
+}
+#pizza-img{
+    max-width: 100%;
+    height: auto;
+}
+#brand-name{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    color:#700000;
+    background-color: white;
+}
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+}
+#head-nav{
+    display: flex;
+    gap: 5rem;
+    
+}
+button#home, button#menu, button#about{
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #585858;
+    color: #F5F5F5;
+}
+button#home:hover, button#menu:hover, button#about:hover{  
+    background-color: #700000;
+    color: #FFFFFF;
+    border: 1px solid #000000 ;
+    cursor: pointer;
 }
 #content{
-    border: 2px solid #282828;
+    border: 0.25rem solid #700000;
     border-radius: 3em 6em 3em;
+    background-color: #FFFFFF;
 }
 #footer{
-    border: 2px solid #282828;
+    border: 0.25rem solid #700000;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 2em;
+    background-color: #FFFFFF;
 }
