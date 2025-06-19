@@ -82,32 +82,79 @@ button#home:hover, button#menu:hover, button#about:hover{
     grid-template-columns: 1fr 1fr 1fr;
 }
 #contact{
-    border: 1px solid red;
+    border-right: 0.1rem solid #585858;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
 #contact-mail{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #700000;
+}
+#contact-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 #num-icon{
     display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 #icon{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #icon-img{
     width: 2rem;
     height: auto;
 }
+#num, #email{
+    color:#000000;
+}
 #socials{
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #700000;
+}
+#social-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+#social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 3rem;
+    height: auto; 
 }
 #copyright{
-    border: 1px solid red;
+    border-left: 0.1rem solid #585858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #700000;
 }
