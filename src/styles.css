@@ -26,8 +26,7 @@ body{
     background-color: #FFFFFF;
 }
 #logo-pic{
-    display: flex;
-    
+    display: flex; 
 }
 #pizza-img{
     max-width: 100%;
@@ -52,7 +51,6 @@ body{
 #head-nav{
     display: flex;
     gap: 5rem;
-    
 }
 button#home, button#menu, button#about{
     font-size: 2rem;
@@ -79,4 +77,37 @@ button#home:hover, button#menu:hover, button#about:hover{
     margin-bottom: 1rem;
     border-radius: 2em;
     background-color: #FFFFFF;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#contact{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+#contact-mail{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#num-icon{
+    display: flex;
+}
+#icon{
+    display: flex;
+    justify-content: center;
+}
+#icon-img{
+    width: 2rem;
+    height: auto;
+}
+#socials{
+    border: 1px solid red;
+}
+#copyright{
+    border: 1px solid red;
 }
