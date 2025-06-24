@@ -42,7 +42,8 @@ function home(){
     const infoDiv = document.createElement("id", "infoDiv");
     infoDiv.setAttribute("id", "infoDiv");
 
-    
+    hourAndInfoDiv.appendChild(hourDiv);
+    hourAndInfoDiv.appendChild(infoDiv);
 
     contentDiv.appendChild(introDiv);
     contentDiv.appendChild(restaurantIntroDiv);
