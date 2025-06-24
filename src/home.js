@@ -33,12 +33,20 @@ function home(){
     restaurantIntroDiv.appendChild(paraDiv);
     restaurantIntroDiv.appendChild(paraTwoDiv);
 
+    const hourAndInfoDiv = document.createElement("div");
+    hourAndInfoDiv.setAttribute("id", "hourAndInfoDiv");
+
     const hourDiv = document.createElement("div");
     hourDiv.setAttribute("id", "hourDiv");
 
+    const infoDiv = document.createElement("id", "infoDiv");
+    infoDiv.setAttribute("id", "infoDiv");
+
+    
+
     contentDiv.appendChild(introDiv);
     contentDiv.appendChild(restaurantIntroDiv);
-    contentDiv.appendChild(hourDiv);
+    contentDiv.appendChild(hourAndInfoDiv);
 }
 
 
