@@ -108,12 +108,17 @@ button#home:hover, button#menu:hover, button#about:hover{
     font-size: 1.8rem;
     line-height: 1.5;
     color: #484848;
-    width: 70%;
+    width: 60%;
+    padding: 1rem;
+    text-align: center;
 }
 #paraTwoDiv{
     font-size: 1.8rem;
     line-height: 1.5;
     color: #484848;
+    width: 60%;
+    padding: 1rem;
+    text-align: center;
 }
 #hourDiv{
     border: 0.25rem solid #700000;
