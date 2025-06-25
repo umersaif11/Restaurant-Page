@@ -9,6 +9,7 @@ function menu(){
     menuHeading.textContent = "Our Menu";
     const burgerHeading = document.createElement("div");
     burgerHeading.setAttribute("id", "burgerHeading");
+    burgerHeading.textContent = "Burgers";
     const cheeseBurger = document.createElement("div");
     cheeseBurger.setAttribute("id", "cheeseBurger");
     const baconBurger = document.createElement("div");
