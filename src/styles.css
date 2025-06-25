@@ -189,6 +189,46 @@ button#home:hover, button#menu:hover, button#about:hover{
 #infoReserveDiv{
     margin-right: auto;
 }
+#burgerMenu{
+    border: 0.25rem solid #700000;
+    border-radius: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+#menuHeading{
+    border: 1px solid red;
+    margin: 1rem 0 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color:#700000;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#burgerHeading{
+    border: 1px solid red;
+}
+#cheeseBurger{
+    border: 1px solid red;
+}
+#baconBurger{
+    border: 1px solid red;
+}
+#spicyBurger{
+    border: 1px solid red;
+}
+#friesMenu{
+    border: 0.25rem solid #700000;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+#wingsMenu{
+    border: 0.25rem solid #700000;
+    border-radius: 2rem;
+    padding: 1rem;
+}
 #footer{
     border: 0.25rem solid #700000;
     margin-top: 1rem;
