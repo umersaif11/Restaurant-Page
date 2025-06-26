@@ -74,6 +74,24 @@ function menu(){
     const friesMenu = document.createElement("div");
     friesMenu.setAttribute("id", "friesMenu");
 
+    const friesHeading = document.createElement("div");
+    friesHeading.setAttribute("id", "friesHeading");
+    friesHeading.textContent = "Fries";
+
+    const frenchFries = document.createElement("div");
+    frenchFries.setAttribute("id", "frenchFries");
+
+    const loadedFries = document.createElement("div");
+    loadedFries.setAttribute("id", "loadedFries");
+
+    const spicyFries = document.createElement("div");
+    spicyFries.setAttribute("id", "spicyFries");
+
+    friesMenu.appendChild(friesHeading);
+    friesMenu.appendChild(frenchFries);
+    friesMenu.appendChild(loadedFries);
+    friesMenu.appendChild(spicyFries);
+
     const wingsMenu = document.createElement("div");
     wingsMenu.setAttribute("id", "wingsMenu");
 
