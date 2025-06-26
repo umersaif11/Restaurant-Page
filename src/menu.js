@@ -32,8 +32,38 @@ function menu(){
     const baconBurger = document.createElement("div");
     baconBurger.setAttribute("id", "baconBurger");
 
+    const baconBurgerHeading = document.createElement("div");
+    baconBurgerHeading.setAttribute("id", "baconBurgerHeading");
+    baconBurgerHeading.textContent = "BBQ Bacon Burger";
+    const baconBurgerIngredients = document.createElement("div");
+    baconBurgerIngredients.setAttribute("id", "baconBurgerIngredients");
+    baconBurgerIngredients.textContent = `JBeef patty, crispy bacon, onion
+     rings, cheddar, and smoky BBQ sauce.`;
+    const baconBurgerPrice = document.createElement("div");
+    baconBurgerPrice.setAttribute("id", "baconBurgerPrice");
+    baconBurgerPrice.textContent = "$10.49";
+
+    baconBurger.appendChild(baconBurgerHeading);
+    baconBurger.appendChild(baconBurgerIngredients);
+    baconBurger.appendChild(baconBurgerPrice);
+
     const spicyBurger = document.createElement("div");
     spicyBurger.setAttribute("id", "spicyBurger");
+
+    const spicyBurgerHeading = document.createElement("div");
+    spicyBurgerHeading.setAttribute("id", "spicyBurgerHeading");
+    spicyBurgerHeading.textContent = "Spicy Jalapeño Burger";
+    const spicyBurgerIngredients = document.createElement("div");
+    spicyBurgerIngredients.setAttribute("id", "spicyBurgerIngredients");
+    spicyBurgerIngredients.textContent = `Beef patty, pepper jack cheese,
+     jalapeños, chipotle mayo, and fresh greens.`;
+    const spicyBurgerPrice = document.createElement("div");
+    spicyBurgerPrice.setAttribute("id", "spicyBurgerPrice");
+    spicyBurgerPrice.textContent = "$9.99";
+
+    spicyBurger.appendChild(spicyBurgerHeading);
+    spicyBurger.appendChild(spicyBurgerIngredients);
+    spicyBurger.appendChild(spicyBurgerPrice);
 
     burgerMenu.appendChild(menuHeading);
     burgerMenu.appendChild(burgerHeading);
