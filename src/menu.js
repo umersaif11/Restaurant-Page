@@ -140,6 +140,68 @@ function menu(){
     const wingsMenu = document.createElement("div");
     wingsMenu.setAttribute("id", "wingsMenu");
 
+    const wingsHeading = document.createElement("div");
+    wingsHeading.setAttribute("id","wingsHeading");
+    wingsHeading.textContent = "Wings";
+
+    const buffaloWings = document.createElement("div");
+    buffaloWings.setAttribute("id","buffaloWings");
+
+    const buffaloWingsHeading = document.createElement("div");
+    buffaloWingsHeading.setAttribute("id", "buffaloWingsHeading");
+    buffaloWingsHeading.textContent = "Buffalo Wings";
+    const buffaloWingsIngredients = document.createElement("div");
+    buffaloWingsIngredients.setAttribute("id", "buffaloWingsIngredients");
+    buffaloWingsIngredients.textContent = `Classic buffalo sauce with your
+     choice of ranch or blue cheese dip.`;
+    const buffaloWingsPrice = document.createElement("div");
+    buffaloWingsPrice.setAttribute("id", "buffaloWingsPrice");
+    buffaloWingsPrice.textContent = "$9.99 (10 pcs)";
+
+    buffaloWings.appendChild(buffaloWingsHeading);
+    buffaloWings.appendChild(buffaloWingsIngredients);
+    buffaloWings.appendChild(buffaloWingsPrice);
+
+    const honeyWings = document.createElement("div");
+    honeyWings.setAttribute("id","honeyWings");
+
+    const honeyWingsHeading = document.createElement("div");
+    honeyWingsHeading.setAttribute("id", "honeyWingsHeading");
+    honeyWingsHeading.textContent = "Honey BBQ Wings";
+    const honeyWingsIngredients = document.createElement("div");
+    honeyWingsIngredients.setAttribute("id", "buffaloWingsIngredients");
+    honeyWingsIngredients.textContent = `Sweet and smoky BBQ glaze with 
+    a hint of honey.`;
+    const honeyWingsPrice = document.createElement("div");
+    honeyWingsPrice.setAttribute("id", "honeyWingsPrice");
+    honeyWingsPrice.textContent = "$9.99 (10 pcs)";
+
+    honeyWings.appendChild(honeyWingsHeading);
+    honeyWings.appendChild(honeyWingsIngredients);
+    honeyWings.appendChild(honeyWingsPrice);
+
+    const spicyWings = document.createElement("div");
+    spicyWings.setAttribute("id","spicyWings");
+
+    const spicyWingsHeading = document.createElement("div");
+    spicyWingsHeading.setAttribute("id", "spicyWingsHeading");
+    spicyWingsHeading.textContent = "Spicy Garlic Wings";
+    const spicyWingsIngredients = document.createElement("div");
+    spicyWingsIngredients.setAttribute("id", "spicyWingsIngredients");
+    spicyWingsIngredients.textContent = `Bold garlic flavor with a fiery kick.`;
+    const spicyWingsPrice = document.createElement("div");
+    spicyWingsPrice.setAttribute("id", "spicyWingsPrice");
+    spicyWingsPrice.textContent = "$9.99 (10 pcs)";
+
+    spicyWings.appendChild(spicyWingsHeading);
+    spicyWings.appendChild(spicyWingsIngredients);
+    spicyWings.appendChild(spicyWingsPrice);
+
+    wingsMenu.appendChild(wingsHeading);
+    wingsMenu.appendChild(buffaloWings);
+    wingsMenu.appendChild(honeyWings);
+    wingsMenu.appendChild(spicyWings);
+
     contentDiv.appendChild(burgerMenu);
     contentDiv.appendChild(friesMenu);
     contentDiv.appendChild(wingsMenu);
