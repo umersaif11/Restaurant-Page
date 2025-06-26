@@ -217,7 +217,7 @@ button#home:hover, button#menu:hover, button#about:hover{
     justify-content: flex-start;
     align-items: center;
 }
-#cheeseBurger{
+#cheeseBurger, #baconBurger, #spicyBurger{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     padding: 2rem;
     border-radius: 2rem;
@@ -228,29 +228,23 @@ button#home:hover, button#menu:hover, button#about:hover{
     gap: 1rem;
     transition: all 0.3s ease;
 }
-#cheeseBurger:hover{
+#cheeseBurger:hover, #baconBurger:hover,#spicyBurger:hover{
     transform:scale(1.019);
     box-shadow: 8px 8px 10px rgba(230, 70, 70, 0.2),-8px -5px 10px rgba(230, 70, 70, 0.2) ;
 }
-#cheeseBurgerHeading{
+#cheeseBurgerHeading,#baconBurgerHeading,#spicyBurgerHeading{
     font-size: 1.9rem;
     font-weight: bold;
     color:#880000;
 }
-#cheeseBurgerIngredients{
+#cheeseBurgerIngredients,#baconBurgerIngredients,#spicyBurgerIngredients{
     font-size: 1.5rem;
     color: rgb(0,0,0,0.7);
 }
-#cheeseBurgerPrice{
+#cheeseBurgerPrice, #baconBurgerPrice,#spicyBurgerPrice{
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(0,0,0);
-}
-#baconBurger{
-    border: 1px solid red;
-}
-#spicyBurger{
-    border: 1px solid red;
 }
 #friesMenu{
     border: 0.25rem solid #700000;
