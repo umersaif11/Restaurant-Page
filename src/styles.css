@@ -262,6 +262,28 @@ button#home:hover, button#menu:hover, button#about:hover{
     font-weight: bold;
     color: rgb(0,0,0);
 }
+#aboutContainer{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+#aboutHeading{
+    font-size: 4rem;
+    font-weight: bold;
+    color:#700000;
+}
+#firstPara, #secondPara,#thirdPara{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #484848;
+    width: 60%;
+    padding: 1rem;
+    text-align: center;
+}
+
 #footer{
     border: 0.25rem solid #700000;
     margin-top: 1rem;
