@@ -16,7 +16,7 @@ body{
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color: #FFFFFF;
+    background-color:  	#F5F5F5;
 }
 #logo{
     display: grid;
@@ -68,8 +68,8 @@ button#home:hover, button#menu:hover, button#about:hover{
 }
 #content{
     border: 0.25rem solid #700000;
-    border-radius: 3em 6em 3em;
-    background-color: #FFFFFF;
+    border-radius: 6em;
+    background-color:#F5F5F5;
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -192,12 +192,11 @@ button#home:hover, button#menu:hover, button#about:hover{
 #burgerMenu{
     border: 0.25rem solid #700000;
     border-radius: 2rem;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
 }
 #menuHeading{
-    border: 1px solid red;
     margin: 1rem 0 2rem;
     font-size: 3rem;
     font-weight: bold;
@@ -208,10 +207,44 @@ button#home:hover, button#menu:hover, button#about:hover{
     align-items: center;
 }
 #burgerHeading{
-    border: 1px solid red;
+    border-bottom: 0.3rem solid rgb(112,0,0, 0.4)  ;
+    margin: 0 0 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#000000;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 #cheeseBurger{
-    border: 1px solid red;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all 0.3s ease;
+}
+#cheeseBurger:hover{
+    transform:scale(1.019);
+    box-shadow: 8px 8px 10px rgba(230, 70, 70, 0.2),-8px -5px 10px rgba(230, 70, 70, 0.2) ;
+}
+#cheeseBurgerHeading{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color:#880000;
+}
+#cheeseBurgerIngredients{
+    font-size: 1.5rem;
+    color: rgb(0,0,0,0.7);
+}
+#cheeseBurgerPrice{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0,0,0);
 }
 #baconBurger{
     border: 1px solid red;
@@ -234,7 +267,7 @@ button#home:hover, button#menu:hover, button#about:hover{
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 2em;
-    background-color: #FFFFFF;
+    background-color:  	#F5F5F5;
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
