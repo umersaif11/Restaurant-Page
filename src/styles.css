@@ -189,7 +189,7 @@ button#home:hover, button#menu:hover, button#about:hover{
 #infoReserveDiv{
     margin-right: auto;
 }
-#burgerMenu, #friesMenu{
+#burgerMenu, #friesMenu, #wingsMenu{
     border: 0.25rem solid #700000;
     border-radius: 2rem;
     padding: 2rem;
@@ -206,7 +206,7 @@ button#home:hover, button#menu:hover, button#about:hover{
     justify-content: center;
     align-items: center;
 }
-#burgerHeading, #friesHeading{
+#burgerHeading, #friesHeading, #wingsHeading{
     border-bottom: 0.3rem solid rgb(112,0,0, 0.4)  ;
     margin: 0 0 1rem;
     font-size: 2rem;
@@ -218,7 +218,8 @@ button#home:hover, button#menu:hover, button#about:hover{
     align-items: center;
 }
 #cheeseBurger, #baconBurger, #spicyBurger,
- #frenchFries, #loadedFries, #spicyFries{
+ #frenchFries, #loadedFries, #spicyFries,
+ #buffaloWings, #honeyWings, #spicyWings{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     padding: 2rem;
     border-radius: 2rem;
@@ -231,33 +232,35 @@ button#home:hover, button#menu:hover, button#about:hover{
 }
 #cheeseBurger:hover, #baconBurger:hover,
 #spicyBurger:hover,#frenchFries:hover,
-#loadedFries:hover, #spicyFries:hover{
+#loadedFries:hover, #spicyFries:hover,
+#buffaloWings:hover, #honeyWings:hover,
+#spicyWings:hover{
     transform:scale(1.019);
     box-shadow: 8px 8px 10px rgba(230, 70, 70, 0.2),-8px -5px 10px rgba(230, 70, 70, 0.2) ;
 }
 #cheeseBurgerHeading,#baconBurgerHeading,
 #spicyBurgerHeading,#frenchFriesHeading,
-#loadedFriesHeading,#spicyFriesHeading{
+#loadedFriesHeading,#spicyFriesHeading,
+#buffaloWingsHeading,#honeyWingsHeading,
+#spicyWingsHeading{
     font-size: 1.9rem;
     font-weight: bold;
     color:#880000;
 }
 #cheeseBurgerIngredients,#baconBurgerIngredients,
 #spicyBurgerIngredients,#frenchFriesIngredients,
-#loadedFriesIngredients,#spicyFriesIngredients{
+#loadedFriesIngredients,#spicyFriesIngredients,
+#buffaloWingsIngredients,#honeyWingsIngredients,
+#spicyWingsIngredients{
     font-size: 1.5rem;
     color: rgb(0,0,0,0.7);
 }
 #cheeseBurgerPrice, #baconBurgerPrice,#spicyBurgerPrice,
-#frenchFriesPrice, #loadedFriesPrice,#spicyFriesPrice{
+#frenchFriesPrice, #loadedFriesPrice,#spicyFriesPrice,
+#buffaloWingsPrice,#honeyWingsPrice,#spicyWingsPrice{
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(0,0,0);
-}
-#wingsMenu{
-    border: 0.25rem solid #700000;
-    border-radius: 2rem;
-    padding: 1rem;
 }
 #footer{
     border: 0.25rem solid #700000;
