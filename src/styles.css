@@ -371,3 +371,100 @@ button#home:hover, button#menu:hover, button#about:hover{
     font-size: 1.5rem;
     color: #700000;
 }
+/* =================================== */
+/* MEDIA QUERIES FOR MOBILE   */
+/* =================================== */
+
+/* These styles will apply to any screen 768px wide or smaller */
+@media (max-width: 768px) {
+
+    /* --- General Layout --- */
+    #main-container {
+        margin: 0.5rem; /* Reduce overall margin */
+        grid-template-rows: auto 1fr auto; /* Allow header/footer to be flexible */
+    }
+
+    /* --- Header --- */
+    #header {
+        /* Stack logo and nav vertically instead of side-by-side */
+        grid-template-columns: 1fr; 
+        gap: 1rem;
+        padding: 1rem;
+    }
+    #brand-name {
+        font-size: 2rem; /* Reduce brand name font size */
+        justify-content: center; /* Center the brand name */
+    }
+    #head-nav {
+        /* Stack nav buttons vertically */
+        flex-direction: column; 
+        gap: 0.5rem; /* Reduce gap between buttons */
+    }
+    button#home, button#menu, button#about {
+        font-size: 1.5rem; /* Make button text smaller */
+        margin: 0.5rem 0; /* Adjust button margin for vertical layout */
+    }
+
+    /* --- Content --- */
+    #content {
+        border-radius: 2em; /* Reduce border-radius for smaller screen */
+        padding: 1.5rem; /* Reduce padding inside content */
+    }
+
+    /* Make content sections wider on mobile */
+    #paraDiv, #paraTwoDiv, #firstPara, #secondPara, #thirdPara {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+
+    #bg-image {
+        width: 100%; /* Make image fill its container */
+    }
+
+    #restaurantIntroDiv {
+        padding: 2rem; /* Reduce padding */
+    }
+
+    /* Stack the Hours and Info divs vertically */
+    #hourAndInfoDiv {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #hourDiv, #infoDiv {
+        width: 100%; /* Make them take the full width */
+        padding: 1.5rem;
+        align-self: center;
+        overflow-x: hidden; /* Hide horizontal overflow */
+    }
+
+    #infoDiv {
+        border-left: none; /* Remove the vertical line */
+        border-top: 0.2rem solid #585858; /* Add a horizontal separator instead */
+    }
+
+    /* Adjust font sizes for mobile */
+    #welcomeDiv, #hourHeading, #infoHeadingDiv, #menuHeading {
+        font-size: 2.2rem;
+    }
+
+    /* --- Footer --- */
+    #footer {
+        /* Stack footer sections vertically */
+        grid-template-columns: 1fr; 
+        gap: 1rem;
+    }
+
+    #contact, #copyright {
+        /* Remove borders that separated columns */
+        border-right: none;
+        border-left: none;
+        text-align: center;
+    }
+
+    #socials {
+        /* Add a border top to separate from contact info */
+        border-top: 0.1rem solid #585858;
+        padding-top: 1rem;
+    }
+}
